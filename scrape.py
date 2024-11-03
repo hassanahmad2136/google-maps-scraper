@@ -88,7 +88,9 @@ try:
                 'div.m6QErb.DxyBCb.kA9KIf.dS8AEf.XiKgde > div:nth-child(9)'
             )
             info_element = driver.find_element(By.CSS_SELECTOR, info_selector)
-            cleaned_text = re.sub(r'[a-z|A-Z|0-9|\+|\.|\-]+', '', info_element.get_attribute("innerText"))
+            cleaned_text = re.sub(r'[^a-zA-Z0-9+\.\-\n]+','',info_element.get_attribute("innerText"))
+            cleaned_text = re.sub(r'\n', ' ', cleaned_text)
+            print(cleaned_text)
             info.append(cleaned_text)
 
             # Check if website link is available
