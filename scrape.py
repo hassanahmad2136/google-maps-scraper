@@ -1,3 +1,9 @@
+# !apt-get update
+# !apt install -y chromium-chromedriver
+# !pip install selenium
+# !pip install webdriver-manager
+# for google colab and other cloud hosted notebooks
+
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
