@@ -2,9 +2,52 @@
 
 This project scrapes data from Google Maps based on a search query and outputs it into a CSV file.
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+Google Maps Scraper is a Python-based tool designed to extract valuable information from Google Maps. It scrapes place names, reviews, websites, and other details and outputs the data into a structured CSV file.
+
 ## Features
-- Scrapes place names, reviews, websites, and other details.
-- Outputs data into a structured CSV file.
+- Scrapes detailed information such as place names, reviews, and websites.
+- Outputs the scraped data into a user-friendly CSV file.
+- Easy-to-use Python script.
+
+## Installation
+
+### Prerequisites
+- Python 3.8 or higher
+- Google Chrome installed
+
+### Steps
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/google-maps-scraper.git
+   cd google-maps-scraper
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+1. Navigate to the project directory:
+   ```bash
+   cd google-maps-scraper
+   ```
+
+2. Run the scraper:
+   ```bash
+   python src/scrape.py
+   ```
+
+3. Output data will be saved to the `output/output.csv` file.
 
 ## Project Structure
 ```
@@ -20,25 +63,8 @@ google-maps-scraper/
 └── .gitignore          # Ignore unnecessary files
 ```
 
-## Prerequisites
-- Python 3.8 or higher
-- Google Chrome installed
+## Contributing
+Contributions are welcome! If you'd like to contribute, please fork the repository and make changes as you'd like. Submit a pull request for review.
 
-## Setup and Run
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/google-maps-scraper.git
-   cd google-maps-scraper
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Run the scraper:
-   ```bash
-   python src/scrape.py
-   ```
-
-4. Output data will be saved to the `output/output.csv` file.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
