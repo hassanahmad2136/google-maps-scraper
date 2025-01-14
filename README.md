@@ -27,7 +27,7 @@ Google Maps Scraper is a Python-based tool designed to extract valuable informat
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/google-maps-scraper.git
+   git clone https://github.com/hassanahmad2136/google-maps-scraper.git
    cd google-maps-scraper
    ```
 
